@@ -9,13 +9,13 @@ import lombok.ToString;
 @ToString
 public class MemberVO {
 
-    private String mbr_id;		//회원ID
-    private String mbr_ty;		//회원유형
-    private String mbr_pwd;		//회원비밀번호
-    private String mbr_nm;		//회원성명
-    private String sex;			//성별
-    private String pwd_expd_dt;	//비밀번호사용종료일자(만료일)
-    private String mbr_tkn;		//액세스토큰
+    private String mbrId;		//회원ID
+    private String mbrTy;		//회원유형
+    private String mbrPwd;		//회원비밀번호
+    private String mbrNm;		//회원성명
+    private String gender;			//성별
+    private String pwdExpdDt;	//비밀번호사용종료일자(만료일)
+    private String mbrTkn;		//액세스토큰
     private String email;		//이메일주소
 
 }
