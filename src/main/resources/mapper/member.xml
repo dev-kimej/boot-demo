@@ -3,7 +3,7 @@
 <mapper namespace="com.example.demo.member.service.impl.MemberMapper">
 
     <select id="selectMember" resultType="MemberVO">
-        select mbr_id, mbr_ty, mbr_pwd, mbr_nm, sex, pwd_expd_dt, mbr_tkn, email
+        select mbr_id, mbr_ty, mbr_pwd, mbr_nm, gender, pwd_expd_dt, mbr_tkn, email
         from tb_mbr
     </select>
 </mapper>

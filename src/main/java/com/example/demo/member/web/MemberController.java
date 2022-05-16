@@ -16,12 +16,12 @@ public class MemberController {
     @Resource(name = "memberService")
     private MemberService memberService;
 
-    @RequestMapping(value = "/member", method = RequestMethod.GET)
+    /*@RequestMapping(value = "/member", method = RequestMethod.GET)
     public List<MemberVO> allMember() {
         List<MemberVO> members = memberService.getMembers();
 
         log.info("members size: {}", members.size());
 
         return members;
-    }
+    }*/
 }
